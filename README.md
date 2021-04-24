@@ -25,7 +25,7 @@ And this command to flash the board:
 
 There are some customizations that may be needed for your system:
 
-* change the `INSTALL_DIR` variable in the shell commands below to match your SymbiFlow location (in my case it's `~/apps/symbiflow`)
+* change the `INSTALL_DIR` variable in the build commands above to match your SymbiFlow location (in my case it's `~/apps/symbiflow`)
 * change in `~/apps/mercury2_prog` in `flash.sh` to reflect where you've placed the [Mercury 2 Programmer Utility](https://www.micro-nova.com/mercury2-programmer)
 
 This test project was based on [symbiflow-examples](https://github.com/SymbiFlow/symbiflow-examples), specifically the [counter_test](https://github.com/SymbiFlow/symbiflow-examples/tree/master/xc7/counter_test) project.
